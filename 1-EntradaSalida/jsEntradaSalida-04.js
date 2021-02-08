@@ -14,7 +14,7 @@ function mostrar()
 	document.getElementById ("txtIdNombre").value = nombre
 
 	*/
-
+//Lo volvi a hacer como practica
 	let nombre; 
 
 	nombre = prompt("Ingrese su nombre");

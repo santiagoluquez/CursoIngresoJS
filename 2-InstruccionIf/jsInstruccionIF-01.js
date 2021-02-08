@@ -2,14 +2,13 @@ function mostrar()
 {
  let edad;
 
- edad = document.getElementById("txtIdEdad").value;
+ edad = parseInt(document.getElementById("txtIdEdad").value);
 
- edad = 15
+ 
 
- if (edad) {alert("niña bonita")
- } else {alert(" ")
-	 
- }
+ if (edad == 15){alert ("niña bonita")};
+	
+ alert("Es no es un 15");
 	 
  
 	 
