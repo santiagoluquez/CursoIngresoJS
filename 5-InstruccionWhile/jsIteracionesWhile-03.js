@@ -2,7 +2,38 @@
 al presionar el botón pedir la CLAVE (ayuda: es utn750)*/
 function mostrar()
 {
-	var claveIngresada;
-	claveIngresada = prompt("ingrese el número clave.");
+/*
+let clave;
+
+clave = prompt("Ingrese clave");
+
+while (clave != "utn750") {
 	
-}//FIN DE LA FUNCIÓN
+	alert("Clave ingresada no valida");
+
+	clave = prompt("Reingrese clave")
+	
+}
+
+alert("Puede seguir")
+*/
+
+let clave;
+flag = 0;
+
+do{
+	if (flag == 0) {
+	
+		clave = prompt("Ingrese clave");
+		flag = 1;
+	}
+	else{
+
+		clave = prompt("Clave invalida, re ingrese clave")
+	}
+
+
+}while (clave != "utn750")
+
+alert("Puede seguir")
+}
