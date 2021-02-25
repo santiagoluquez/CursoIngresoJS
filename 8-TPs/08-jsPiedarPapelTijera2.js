@@ -67,3 +67,6 @@ function tijera()
 	
 }//FIN DE LA FUNCIÓN
 }
+
+
+

@@ -35,6 +35,7 @@ function comenzar()
 while (numero == ingresarNumero) {
   
   
+  
 }
 }
 
